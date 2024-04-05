@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c263238f942442d7951669c8349b15ef" Name="Diagram1">
+        <EntityTypeShape EntityType="SOCIALModel.Amistades" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOCIALModel.Comentarios" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOCIALModel.EstadoAmistad" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOCIALModel.Publicaciones" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SOCIALModel.Usuarios" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="SOCIALModel.FK__Amistades__Estad__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="SOCIALModel.FK__Amistades__Usuar__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="SOCIALModel.FK__Amistades__Usuar__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="SOCIALModel.FK__Comentari__Estad__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="SOCIALModel.FK__Comentari__Publi__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="SOCIALModel.FK__Publicaci__Usuar__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
